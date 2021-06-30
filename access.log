@@ -1,0 +1,6 @@
+::1 - - [29/Jun/2021:15:21:29 +0000] "GET /products HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36"
+::1 - - [29/Jun/2021:15:21:29 +0000] "GET /css/product.css HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36"
+::1 - - [29/Jun/2021:15:21:29 +0000] "GET /css/main.css HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36"
+::1 - - [29/Jun/2021:15:21:29 +0000] "GET /js/main.js HTTP/1.1" 200 519 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36"
+::1 - - [29/Jun/2021:15:21:29 +0000] "GET /images/98c0d917-46d0-49fb-a586-832f57b58ee1-redcar.jpg HTTP/1.1" 200 122819 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36"
+::1 - - [29/Jun/2021:15:21:29 +0000] "GET /images/ab973d03-0709-48eb-a6b2-3d4f86abe8ee-silvercar.jpg HTTP/1.1" 200 80413 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36"
