@@ -7,8 +7,6 @@ const PDFDocument = require("pdfkit");
 
 const Product = require("../models/product");
 const Order = require("../models/order");
-const { ifError } = require("assert");
-const { errorMonitor } = require("events");
 
 const ITEMS_PER_PAGE = 2;
 

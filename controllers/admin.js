@@ -207,16 +207,10 @@ exports.deleteProduct = (req, res, next) => {
          return Product.deleteOne({ _id: prodId, userId: req.user._id });
       })
       .then(() => {
-         // json() is an Express helper method for returning JSON data (can use normal JS object; will be converted to JSON behind the scenes)
          res.status(200).json({ message: "Success!" });
       })
-      // Added myself; as of lecture #354, if product is deleted but was already added to cart, product is still stored in user cart in database, so if you try to view cart again, it will result in 500 error; this is a workaround
-      .then(() => {
-         // Remove product with ID from cart (sets cart items to those not matching id passed as argument)
-         req.user.removeFromCart(prodId);
-      })
       .catch((err) => {
-         console.log(err);
+         // console.log(err);
          res.status(500).json({ message: "Deleting product failed." });
       });
 };
