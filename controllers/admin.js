@@ -176,26 +176,6 @@ exports.getProducts = (req, res, next) => {
       });
 };
 
-// exports.deleteProduct = (req, res, next) => {
-//    const prodId = req.params.productId;
-
-//    //to Delete image our storage
-//    Product.findById(prodId)
-//       .then((product) => {
-//          if (!product) {
-//             return next(new Error("Product not Found !"));
-//          }
-//          fileHelper.deleteFile(product.imageUrl);
-//          return Product.deleteOne({ _id: prodId, userId: req.user._id });
-//       })
-//       .then(() => {
-//          console.log("DESTROYED PRODUCT");
-//          res.status(200).json({ message: "Success!" });
-//       })
-//       .catch((err) => {
-//          res.status(500).json({ message: "Deleting product failed!" });
-//       });
-// };
 exports.deleteProduct = (req, res, next) => {
    const prodId = req.params.productId;
    Product.findById(prodId)
